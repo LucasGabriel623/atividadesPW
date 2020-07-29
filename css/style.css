@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.bg-title {
+    background-color: rgb(50, 73, 92);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Anton', sans-serif;
+}
+
+@media (max-width: 576px) {
+    .bg-title {
+        background: rgb(66, 66, 68);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+}
